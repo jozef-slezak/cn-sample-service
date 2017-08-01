@@ -8,15 +8,15 @@
 
 The CN sample service showcases the extensibility of [vpp-agent](https://github.com/ligato/vpp-agent) 
 and [cn-infra](https://github.com/ligato/cn-infra). Both vpp-agent and cn-infra have their own examples
-but this dedicated repository demonstrates the [dependency management](Glide) and building using [makefiles](Makefile).
+but this dedicated repository demonstrates the [dependency management](#Glide) and building using [makefiles](#Makefile).
 Use this repository as skeleton for your software projects (copy&paste it at the very beginning).
 
 ![sample_service](docs/imgs/sample_service.png "Sample service plugins")
 
 
 The sample service repository contains:
-* [Hello World!](cmd/helloworld) - minimalistic extension of the vpp-agent
-* [Cassandra](cmd/cassandra) - comming soon (it is supposed to showcase REST API calls that work with Cassandra)
+* [Hello World!](cmd/helloworld) microservice - minimalistic extension of the vpp-agent
+* REST & Cassandra microservice - comming soon (it is supposed to showcase REST API calls that work with Cassandra)
 * Plugins from [vpp-agent](https://github.com/ligato/vpp-agent/tree/master/plugins) and [cn-infra](https://github.com/ligato/cn-infra)
 * [Core](https://github.com/ligato/cn-infra/tree/master/core) from cn-infra - lifecycle management of plugins (loading, 
 initialization, unloading)
